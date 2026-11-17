@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hollowmere Support</title>
+<meta name="description" content="Help and contact for Hollowmere: Medieval Saga, a medieval idle and hunting game for iPhone.">
+<link rel="icon" href="icon-512.png">
+<style>
+  /* No web fonts or outside requests on purpose, to match the privacy policy. */
+  :root {
+    --bg: #efe5cf; --card: #f8f1e1; --ink: #2c2216; --muted: #6b5b45; --rule: #d6c6a3; --accent: #7a3b1d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #17130e; --card: #221c15; --ink: #ece2cc; --muted: #b3a385; --rule: #3d3326; --accent: #e0a46b; }
+  }
+  :root[data-theme="dark"] { --bg: #17130e; --card: #221c15; --ink: #ece2cc; --muted: #b3a385; --rule: #3d3326; --accent: #e0a46b; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 32px 16px 56px; }
+  .card { background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 24px 20px; }
+  .brand { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+  .brand img { width: 52px; height: 52px; border-radius: 12px; }
+  .brand b { display: block; font-size: 1.15rem; letter-spacing: 0.04em; }
+  .brand span { color: var(--muted); font-size: 0.9rem; }
+  h1 { font-size: 1.7rem; line-height: 1.2; margin: 0 0 10px; }
+  h2 { font-size: 1.15rem; margin: 28px 0 6px; padding-top: 18px; border-top: 1px solid var(--rule); }
+  h3 { font-size: 1rem; margin: 18px 0 4px; }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 1.2em; margin: 0 0 10px; }
+  .lede { color: var(--muted); }
+  .contact { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 4px; }
+  .btn { display: inline-block; padding: 10px 16px; border-radius: 8px; border: 1px solid var(--accent); color: var(--accent); text-decoration: none; font-weight: 600; }
+  .btn.primary { background: var(--accent); color: var(--card); }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  footer { color: var(--muted); font-size: 0.9rem; text-align: center; margin-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">
+    <img src="icon-512.png" alt="">
+    <div><b>Hollowmere</b><span>Medieval Saga</span></div>
+  </div>
+  <div class="card">
+    <h1>Help and support</h1>
+    <p class="lede">Hollowmere is a medieval idle and hunting game for iPhone, made by one independent developer. If something's wrong or you have an idea, I'd like to hear it.</p>
+    <div class="contact">
+      <a class="btn primary" href="mailto:support@playhollowmere.com?subject=Hollowmere%20support">Email support@playhollowmere.com</a>
+      <a class="btn" href="https://discord.gg/nDJsbgu5SK">Join the Discord</a>
+    </div>
+    <p class="lede">When reporting a bug, a screenshot and a line on what you were doing helps a lot.</p>
+
+    <h2>Common questions</h2>
+
+    <h3>Will I lose my progress if I get a new phone?</h3>
+    <p>Not if iCloud is on. The game saves your progress to your own iCloud, so it appears on any iPhone signed in to the same Apple Account. You can also copy a save code from the game's Saves page and keep it somewhere safe.</p>
+
+    <h3>My progress didn't show up on my other device.</h3>
+    <p>Check that both devices are signed in to the same Apple Account with iCloud turned on, then close the game fully on both and open it on the device you want to play on. If it still doesn't arrive, use a save code from the Saves page.</p>
+
+    <h3>Does the game earn while it's closed?</h3>
+    <p>Yes. Your holding keeps working while you're away, and you're paid for that time when you come back. Your hunting party eats food while it works, so if food is running down, check what the party is costing you.</p>
+
+    <h3>What's “End family line”?</h3>
+    <p>It deletes your whole family and starts the game over from nothing, which is why it asks four times. It can't be undone unless you saved a save code first.</p>
+
+    <h3>Do I need Game Center?</h3>
+    <p>No. Game Center adds leaderboards and achievements; the game plays the same without it.</p>
+
+    <h3>Does the game need the internet?</h3>
+    <p>No. It plays fully offline. iCloud saves and Game Center catch up when you're back online.</p>
+
+    <h2>Privacy</h2>
+    <p>Hollowmere collects no personal data: no accounts, no ads, no tracking. <a href="privacy.html">Read the privacy policy</a>.</p>
+  </div>
+  <footer><a href="privacy.html">Privacy policy</a> · Hollowmere: Medieval Saga</footer>
+</main>
+</body>
+</html>
